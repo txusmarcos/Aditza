@@ -35,6 +35,8 @@ public class Aditzak  extends JFrame{
 		this.setResizable(false);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setFont( new Font( "Courier",Font.PLAIN,30 ));
+		
+		System.out.println("Primera modificación con Git");
 
 		//Añadimos los componentes de la pantalla al contenedor		
 		PantallaAditzak pa = new PantallaAditzak();
