@@ -13,6 +13,7 @@ public class Aditzak  extends JFrame{
 	private static final long serialVersionUID = -491034458093394202L;
 
 	public Aditzak(){
+		System.out.println("Segunda modificación con Git");
 		try {
 			UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsClassicLookAndFeel");
 		} catch (ClassNotFoundException e) {
@@ -52,6 +53,7 @@ public class Aditzak  extends JFrame{
 
 		new Aditzak();
 		
+		System.out.println("Tercera modificación con Git");
 	}
 
 }
