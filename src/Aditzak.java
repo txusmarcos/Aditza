@@ -14,6 +14,8 @@ public class Aditzak  extends JFrame{
 
 	public Aditzak(){
 		System.out.println("Segunda modificación con Git");
+		System.out.println("Segunda modificación con Git");
+		
 		try {
 			UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsClassicLookAndFeel");
 		} catch (ClassNotFoundException e) {
