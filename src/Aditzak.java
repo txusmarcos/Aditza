@@ -13,8 +13,9 @@ public class Aditzak  extends JFrame{
 	private static final long serialVersionUID = -491034458093394202L;
 
 	public Aditzak(){
-		System.out.println("Segunda modificación con Git");
-		System.out.println("Segunda modificación con Git");
+		System.out.println("Segunda modificaciï¿½n con Git");
+		System.out.println("Segunda modificaciï¿½n con Git");
+		System.out.println("Modificacion desde jmarcos@electrodomesticos");
 		
 		try {
 			UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsClassicLookAndFeel");
@@ -39,9 +40,9 @@ public class Aditzak  extends JFrame{
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setFont( new Font( "Courier",Font.PLAIN,30 ));
 		
-		System.out.println("Primera modificación con Git");
+		System.out.println("Primera modificaciï¿½n con Git");
 
-		//Añadimos los componentes de la pantalla al contenedor		
+		//Aï¿½adimos los componentes de la pantalla al contenedor		
 		PantallaAditzak pa = new PantallaAditzak();
 		this.add(pa);			
 		setVisible(true);
@@ -55,7 +56,7 @@ public class Aditzak  extends JFrame{
 
 		new Aditzak();
 		
-		System.out.println("Tercera modificación con Git");
+		System.out.println("Tercera modificaciï¿½n con Git");
 	}
 
 }
